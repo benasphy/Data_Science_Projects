@@ -251,11 +251,11 @@ def main():
                 module = __import__(module_path, fromlist=[function_name])
                 run_function = getattr(module, function_name)
 
-                # Run the project
-                run_function()
-                # Show GitHub link under the project subheader
+                # Show GitHub link at the top of the project section
                 if 'github' in project_info:
                     st.markdown(f"[View on GitHub]({project_info['github']})", unsafe_allow_html=True)
+                # Run the project
+                run_function()
             except ImportError as e:
                 st.error(f"Could not load project: {e}")
                 st.info("This project may not be implemented yet.")
