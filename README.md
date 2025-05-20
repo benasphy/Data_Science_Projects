@@ -22,7 +22,7 @@ This repository contains a suite of interactive Streamlit applications for explo
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/benasphy/Data_Science_Projects
    cd Data_Science_Projects
    ```
 2. **Install dependencies:**
