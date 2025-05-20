@@ -2,4 +2,5 @@ streamlit==1.24.0
 numpy==1.24.3
 pandas==2.0.2
 plotly==5.15.0
+seaborn
 scipy==1.10.1
