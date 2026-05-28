@@ -63,6 +63,6 @@ def run_cdf_comparison():
 
     st.markdown("""
     - **Normal**: Symmetric, bell-shaped CDF.
-    - **Exponential**: Rapid rise, models waiting times.
+    - **Exponential**: Rapid rise,models waiting times.
     - **Uniform**: Linear CDF between endpoints.
     """)
